@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Strategy - Team BFox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .strategy-hero {
+            background: linear-gradient(135deg, var(--light) 0%, #FFFFFF 100%);
+            padding: 8rem 5% 6rem;
+            text-align: center;
+        }
+
+        .strategy-hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .strategy-hero p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--dark);
+            opacity: 0.8;
+        }
+
+        .strategy-section {
+            padding: 6rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: var(--primary);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .text-content h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+        }
+
+        .text-content p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #4B5563;
+        }
+
+        .strategy-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            border-left: 6px solid var(--secondary);
+            height: 100%;
+        }
+
+        .strategy-card h4 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .feature-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: 800;
+        }
+
+        .highlight-box {
+            background-color: #FFF7ED;
+            border: 1px solid #FFEDD5;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+        }
+
+        .media-section {
+            background-color: var(--dark);
+            color: var(--white);
+            border-radius: 30px;
+            padding: 4rem;
+            margin: 4rem 0;
+        }
+
+        .media-section h2 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+
+        .media-section p {
+            color: #D1D5DB;
+        }
+
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .media-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .media-card h4 {
+            color: var(--secondary);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .img-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #E5E7EB;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9CA3AF;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+
+            .content-grid,
+            .media-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .strategy-hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Team BFox</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact" class="btn-primary">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="strategy-hero">
+        <h1>The Winning Formula</h1>
+        <p>A comprehensive blueprint integrating hyper-local intelligence, narrative dominance, and strategic alliances.
+        </p>
+    </header>
+
+    <!-- Section 1: Ground Intelligence -->
+    <section class="strategy-section">
+        <h2 class="section-title">1. Deep Ground Intelligence</h2>
+        <div class="content-grid">
+            <div class="text-content">
+                <h3>The "Ears to the Ground" Methodology</h3>
+                <p>We don't guess; we know. Our 25-member field team operates like a sensory network, covering every
+                    inch of the constituency. This isn't just door-knocking; it's <strong>Relational
+                        Organizing</strong>.</p>
+                <p>We segment the constituency into micro-zones, assigning dedicated surveyors who become part of the
+                    local fabric. They build trust, not just collect data.</p>
+                <div class="highlight-box">
+                    <strong>Key Deliverable:</strong> A live "Voter Mood Map" that updates in real-time, flagging issues
+                    before they become crises.
+                </div>
+            </div>
+            <div class="strategy-card">
+                <h4>Core Tactics</h4>
+                <ul class="feature-list">
+                    <li><strong>Micro-Targeting:</strong> Booth-level segmentation to tailor messages for specific
+                        demographics (e.g., agrarian vs. urban pockets).</li>
+                    <li><strong>KOL Mapping:</strong> Identifying Key Opinion Leaders—religious heads, tea shop owners,
+                        youth icons—who influence the community.</li>
+                    <li><strong>Issue Tracking:</strong> Categorizing voter grievances (Water, Roads, Jobs) to inform
+                        policy and speechwriting.</li>
+                    <li><strong>Feedback Loops:</strong> Daily debriefs ensure that ground reality immediately shapes
+                        the campaign narrative.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Placeholder for Data Flow Image -->
+        <div style="margin-top: 4rem;">
+            <img src="images/data_process_flow.png" alt="Data Process Flow" class="img-placeholder"
+                style="height: 400px; object-fit: cover; background: #f3f4f6;">
+        </div>
+    </section>
+
+    <!-- Section 2: Narrative Engine -->
+    <section class="strategy-section bg-light" style="border-radius: 40px;">
+        <h2 class="section-title">2. The Narrative Engine</h2>
+        <div class="content-grid">
+            <div class="strategy-card" style="border-left-color: var(--primary);">
+                <h4>The Framework: Story of Self, Us, Now</h4>
+                <p>We move beyond slogans to tell a story that connects.</p>
+                <ul class="feature-list">
+                    <li><strong>Story of Self:</strong> Why the candidate serves. Establishing authenticity and shared
+                        values.</li>
+                    <li><strong>Story of Us:</strong> The shared challenges and hopes of the community. "We are in this
+                        together."</li>
+                    <li><strong>Story of Now:</strong> The urgent choice we face in 2026. A call to action.</li>
+                </ul>
+            </div>
+            <div class="text-content">
+                <h3>From Insight to Impact</h3>
+                <p>Data from the ground feeds our Content Factory. If Zone C is worried about jobs, we don't just
+                    release a manifesto point.</p>
+                <p>We produce a video featuring a local youth from Zone C talking about their aspirations, intercut with
+                    the candidate's concrete plan. This <strong>hyper-local resonance</strong> is what wins votes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Strategic Alliances (NEW) -->
+    <section class="strategy-section">
+        <div class="media-section">
+            <h2 style="text-align: center;">3. Strategic Alliances & Media Amplification</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">We amplify our message by partnering with
+                voices that people already trust. We work with media, social media, and other teams with demonstrated
+                reach in the region.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <h4>Regional Media</h4>
+                    <p>Exclusive partnerships with local newspapers and cable TV channels for op-eds, interviews, and
+                        "Day in the Life" features.</p>
+                </div>
+                <div class="media-card">
+                    <h4>Digital Influencers</h4>
+                    <p>Collaboration with local YouTubers, food vloggers, and cultural commentators who have deep
+                        engagement with the youth.</p>
+                </div>
+                <div class="media-card">
+                    <h4>Community Echo Chambers</h4>
+                    <p>Leveraging trusted WhatsApp groups, Facebook community pages, and Resident Welfare Association
+                        newsletters.</p>
+                </div>
+            </div>
+            <!-- Placeholder for Media Collaboration Image -->
+            <div style="margin-top: 3rem; text-align: center;">
+                <img src="images/media_collaboration.png" alt="Media Collaboration"
+                    style="width: 100%; border-radius: 16px; opacity: 0.9;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Financial Planning -->
+    <section class="strategy-section">
+        <h2 class="section-title">4. Strategic Resource Allocation</h2>
+        <div class="content-grid">
+            <div class="text-content">
+                <h3>Investing in Victory</h3>
+                <p>Our ₹25 Lakh budget is not an expense; it's an investment in a high-performance machine.</p>
+                <p>We prioritize <strong>Human Capital (65%)</strong> because elections are won by people, not just ads.
+                    Our field staff are well-paid and highly motivated.</p>
+                <p><strong>Technology (20%)</strong> ensures we have the data advantage, while a robust
+                    <strong>Contingency (15%)</strong> allows us to adapt to the unpredictable nature of elections.</p>
+            </div>
+            <div style="text-align: center;">
+                <a href="index.html#financials" class="btn-primary" style="font-size: 1.2rem; padding: 1rem 2rem;">View
+                    Detailed Budget Breakdown</a>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Team BFox. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
